@@ -1,10 +1,10 @@
-import './App.css';
+import PageHeader from './layouts/PageHeader';
 
 function App() {
   return (
-    <>
-      <h2 className='font-extrabold text-3xl text-red-300'>Peanut</h2>
-    </>
+    <div className='max-h-screen bg-white flex flex-col'>
+      <PageHeader />
+    </div>
   );
 }
 
